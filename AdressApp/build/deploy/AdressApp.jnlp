@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AdressApp.jnlp">
+  <information>
+    <title>AdressApp</title>
+    <vendor>makery.ch</vendor>
+    <description>Address.App</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AdressApp.jar" size="24042" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="mx.com.chilitech.address.Main"  name="Address.App" />
+  <update check="background"/>
+</jnlp>
